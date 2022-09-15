@@ -34,7 +34,7 @@
    flex-direction: column;
    justify-content: flex-end;
    align-items: center;
-   background-color: red;
+   /* background-color: red; */
    align-self: flex-start;
    justify-self: flex-end;
 }
