@@ -73,10 +73,13 @@
    }
    .perfil__title{
       font-size: 1em;
+      margin: 0;
       /* margin-top: .5em; */
    }
    .perfil__subtitle{
-      font-size: 2.5em;
+      font-size: 2em;
+      margin: 0;
+      padding: 0;
    }
    .hero__container-perfil{
       margin-top: 1em;
@@ -91,7 +94,7 @@
 .header__container-icon{
    display: flex;
    gap: .5em;
-   margin-top: .5em;
+   /* margin-top: .5em; */
 }
 .header__container-icon a{
  color: white;
