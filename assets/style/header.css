@@ -8,6 +8,7 @@
  background:linear-gradient(280deg,#0aa7eb -16%,#0c80b6 8%,#0a4e71 32%,#0a4567 40%,#0f3957 90%);
 }
 .hero__container{
+ margin: 0;
  width: 100%;
  height: 100%;
  display: grid;
@@ -33,8 +34,8 @@
    flex-direction: column;
    justify-content: flex-end;
    align-items: center;
-   /* background-color: red; */
-   align-self: flex-end;
+   background-color: red;
+   align-self: flex-start;
    justify-self: flex-end;
 }
 .perfil{
@@ -48,7 +49,6 @@
    display: flex;
    justify-content: center;
    align-items: center;
-   /* margin-top: 6em; */
 }
 .perfil__img{
    /* max-width: 600px; */
@@ -72,12 +72,12 @@
       height: 450px;
    }
    .perfil__title{
-      font-size: 1em;
+      font-size: 1.5em;
       margin: 0;
       /* margin-top: .5em; */
    }
    .perfil__subtitle{
-      font-size: 2em;
+      font-size: 2.5em;
       margin: 0;
       padding: 0;
    }
