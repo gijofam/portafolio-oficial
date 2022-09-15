@@ -1,0 +1,152 @@
+.header{
+ width: 100vw;
+ width: 100%;
+ /* max-width: 1200px;*/
+ height: 100vh;
+ /* height: 100%; */
+ padding: 1em;
+ background:linear-gradient(280deg,#0aa7eb -16%,#0c80b6 8%,#0a4e71 32%,#0a4567 40%,#0f3957 90%);
+}
+.hero__container{
+ width: 100%;
+ height: 100%;
+ display: grid;
+ grid-template-columns: 1fr;
+ grid-template-rows: 1fr 1fr;
+ justify-content: center;
+ align-content: center;
+ gap: 1em;
+}
+
+@media screen and (min-width: 800px){
+.hero__container{
+ grid-template-columns: 1fr 1fr;
+ 
+}
+
+
+}
+
+/* *****estilos de foto de perfil****** */
+.hero__container-perfil{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   align-items: center;
+   /* background-color: red; */
+   align-self: flex-end;
+   justify-self: flex-end;
+}
+.perfil{
+   /* width: 250px; */
+   width: 250px;
+   /* height: 250px; */
+   height: 250px;
+   border-radius: 50%;
+   background-color: rgb(255,255,255,0.3);
+   overflow: hidden;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /* margin-top: 6em; */
+}
+.perfil__img{
+   /* max-width: 600px; */
+   width: 100%;
+   /* max-height: 600px; */
+   height: 100%;
+   object-fit: cover;
+}
+
+.perfil__title{
+   font-size: 1.5em;
+   text-align: center;
+}
+.perfil__subtitle{
+   font-size: 2.5em;
+   text-align: center;
+}
+@media screen and (min-width: 800px){
+   .perfil{
+      width: 500px;
+      height: 500px;
+   }
+   .perfil__title{
+      font-size: 2em;
+      margin-top: .5em;
+   }
+   .perfil__subtitle{
+      font-size: 4em;
+   
+   }
+   .hero__container-perfil{
+      margin-top: 4em;
+   }
+
+}
+@media screen and (max-width: 500px) {
+.header{
+   height: 120vh;
+}
+}
+.header__container-icon{
+   display: flex;
+   gap: .5em;
+   margin-top: .5em;
+}
+.header__container-icon a{
+ color: white;
+ font-size: 50px;
+}
+/* *****FIN estilos de foto de perfil****** */
+/* *****estilos de grafics****** */
+.hero__container-grafics{
+ position: relative;
+ width: 100%;
+ height: 100%;
+}
+.absolute{
+ position: absolute;
+}
+.grafic-circles{
+ width: 100%;
+ height: 100%;
+}
+
+@media screen and (min-width: 800px){
+.grafic-circles{
+ width: 70%;
+ height: 70%;
+}   
+
+.hero__container-grafics{
+     /* width: 70%;
+     height: 70%; */
+     display: flex;
+     align-items: center;
+     justify-content: center;
+   }
+}
+.last-circle{
+ animation: turn1 20s linear infinite;
+}
+.medium-circle{
+ animation: turn2 20s linear infinite;
+}
+.center-circle{
+ animation: turn1 10s linear infinite;
+}
+
+@keyframes turn1 {
+ to {
+    transform: rotate(1turn);
+ }   
+}
+@keyframes turn2 {
+ to {
+    transform: rotate(-1turn);
+ }   
+}
+/* *****FIN estilos grafics****** */
+/* *****estilos de foto de perfil****** */
+/* *****FIN estilos de foto de perfil****** */

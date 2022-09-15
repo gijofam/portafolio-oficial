@@ -1,0 +1,125 @@
+.container__nav{
+  width: 100%;
+  max-width: 300px;
+  position: fixed;
+  left: 5px;
+  top: 30%;
+  z-index: 10;
+}
+.open{
+  opacity: 0; 
+  /* visibility: visible; */
+}
+.closet{
+  opacity: 1;
+  /* visibility: hidden; */
+}
+#navegation{
+ display: block;
+ display: none;
+}
+
+#navegation:checked ~ .btn-flotante .icon i{
+  transform: rotate(137deg);
+  line-height: 20px;
+}
+
+#navegation:checked ~ .nav{
+  transform: translateX(0);
+}
+.btn-flotante{
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  line-height: 95px;
+  background-color: var(--text-light);
+  /* background-color: rgb(32, 204, 216, 0.7); */
+  border-radius: 50%;
+  margin: 0;
+}
+.btn-flotante label:hover{
+  cursor: pointer;
+}
+.btn-flotante:hover{
+  background:#1c1c1c;
+  cursor: pointer;
+  transform: scale(1.1);
+
+}
+.btn-flotante i{
+  font-size: 40px;
+}
+.nav{
+  margin-top: 1em;
+  transition: transform .8s ease;
+  transform: translateX(-100%);
+}
+.nav a {
+ display: block;
+ /* padding: 15px; */
+ font-size: 1.5em;
+ color: white;
+ text-decoration: none;
+ position: relative;
+ background-color: var(--secondary);
+ margin-bottom: 5px;
+ width: 70px;
+ height: 70px;
+ border-radius: 50%;
+ line-height: 80px;
+ text-align: center;
+ transition: all 500ms ease;
+}
+.nav a i {
+    font-size: 30px;
+}
+.nav a:hover {
+    background: #1c1c1c;
+}
+.title{
+ position: fixed; 
+ background: white;
+ color: var(--primary) ;
+ /* padding: 6px; */
+ border-radius: 5px;
+ margin-top: 13px;
+ margin-left: 1em;
+ border: 1px solid var(--secondary);
+ transition: all 200ms ease;
+ /* opacity: 0; */
+ visibility: hidden;
+ text-align: center;
+ line-height: 40px;
+ font-weight: bold;
+}
+.nav a:hover .title{
+ visibility: visible;
+ margin-left: 1.5em;
+}
+
+.title::before{
+  position: absolute;
+  content: '';
+  border-left: 10px solid transparent;
+  border-top: 10px solid transparent;
+  border-right: 9px solid white;
+  border-bottom: 10px solid transparent;
+  /* background-color: black;  */
+  left: -19px;
+  top: 10px;
+}
+.home{
+
+}
+.aboutme{
+
+}
+.skill{
+
+}
+.folder{
+
+}
+.contact{
+
+}

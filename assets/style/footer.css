@@ -1,0 +1,10 @@
+.footer{
+    width: 100%;
+    height: 150px;
+    background-color: var(--text-dark);
+    /* background:linear-gradient(280deg,#0aa7eb -16%,#0c80b6 8%,#0a4e71 32%,#0a4567 40%,#0f3957 90%); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

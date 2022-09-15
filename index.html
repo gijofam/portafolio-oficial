@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GijoFam</title>
+    <!-- boxicon -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <!-- mis estilos -->
+    <link rel="stylesheet" href="./assets/style/main.css">
+    <link rel="stylesheet" href="./assets/style/header.css">
+    <link rel="stylesheet" href="./assets/style/footer.css">
+    <link rel="stylesheet" href="./assets/style/iconFlotante.css">
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <section id="home" class="hero__container">
+        <div class="hero__container-perfil">
+            <div class="perfil">
+                <img class="perfil__img"  src="./assets/img/perfil1-sinfondo.png" alt="">    
+            </div>
+            <h1 class="perfil__title">Hola, Soy Gilmar Fasabi</h1>
+            <h3 id="cargo" class="perfil__subtitle"></h3>
+            <div class="header__container-icon">
+              
+              <a href="https://www.linkedin.com/in/gilmar-fasabi-morales/"><i class='bx bxl-linkedin'></i></a>
+              <a href="https://github.com/gijofam"><i class='bx bxl-github'></i></a>
+              <a href="https://api.whatsapp.com/send?phone=51939165560"><i class='bx bxl-whatsapp' ></i></a>
+              <!-- <a href=""><i class='bx bxl-instagram-alt'></i></a>
+              <a href=""><i class='bx bxl-facebook-circle'></i></a> -->
+            </div>
+        </div>
+        <div class="hero__container-grafics">
+            <div class="grafic-circles absolute">
+                <img class="last-circle absolute"  src="./assets/img/capalast.png" alt="">
+                <img class="medium-circle absolute"  src="./assets/img/capamedia.png" alt="">
+                <img class="center-circle absolute"  src="./assets/img/capacentro.png" alt="">    
+            </div>
+        </div>
+    </section>
+    <div class="container__nav">
+        <input type="checkbox" id="navegation" >
+        <div class="btn-flotante">
+            <label for="navegation" class="icon" >
+               <i class='bx bx-plus-circle '></i>
+            </label>
+        </div>
+      
+        <nav class="nav">
+          <a href="#home" class="home">
+            <i class='bx bx-home-alt-2'></i>
+            <span class="title">Home</span>    
+          </a>
+          <a href="#aboutme" class="aboutme">
+            <i class='bx bxs-graduation'></i>
+            <span class="title">Acerca de mi</span>    
+          </a>
+          <a href="#skills" class="skills">
+            <i class='bx bxs-check-shield'></i>
+            <span class="title">Habilidades</span>    
+          </a>
+          <a href="#folder" class="folder">
+            <i class='bx bx-folder'></i>
+            <span class="title">Portafolio</span>    
+          </a>
+          <a href="#contact" class="contact">
+            <i class='bx bxs-contact'></i>
+            <span class="title">Contacto</span>    
+          </a>
+        </nav>
+    </div>
+  </header>
+  <main>
+    <section id="aboutme" class="aboutme">
+      <div class="section__header">
+        <h2 class="section__title" >Acerca de mi</h2>
+        <hr class="line" ></hr>
+      </div>
+      <div class="aboutme__body">
+        <div class="aboutme__container-img" >
+          <img class="aboutme__img" src="./assets/img/perfilgit.jpg" alt="">
+        </div >
+        <div class="aboutme__description">
+            <p >Soy un profesional con la capacidad de poder resolver problemas anticipándome a ellos, optimizando recursos y tiempo.  </p>
+            <p>Me interesa mucho mejorar mis habilidades, investigando por cuenta propia o asesorándome de profesionales con mayor experiencia que yo, para así poder satisfacer las necesidades de las empresas. Finalmente quiero ayudar a las empresas a cumplir con sus objetivos establecidos y también a superar sus mayores retos.
+            </p>  
+            <div class="btn__descarga">
+               <a download="cv" href="">CURRICULUM <i class='bx bxs-download'></i></i></a>
+            </div>
+        </div>
+      </div>
+    </section>
+    <section id="skills" class="skills">
+      <div class="section__header">
+        <h2 class="section__title">Habilidades</h2>
+        <hr class="line" ></hr>
+      </div>
+      <div class="skill-tec">
+        <h3 class="subtitle">Tecnologicas</h3>
+        <div class="skills__container">
+          <div class="skill__items">
+              <h4 class="items-title">HTML</h4>
+              <img class="items-img" src="./assets/utils/html.png" alt="">
+          </div>
+          <div class="skill__items">
+              <h4 class="items-title">CSS</h4>
+              <img class="items-img" src="./assets/utils/css-3.png" alt="">
+          </div>
+          <div class="skill__items">
+              <h4 class="items-title">JAVASCRIPT</h4>
+              <img class="items-img" src="./assets/utils/java-script.png" alt="">
+          </div>
+          <div class="skill__items">
+              <h4 class="items-title">REACT JS</h4>
+              <img class="items-img" src="./assets/utils/react.png" alt="">
+          </div>
+          <div class="skill__items">
+              <h4 class="items-title">REDUX</h4>
+              <img class="items-img" src="./assets/utils/redux.png" alt="">
+          </div>
+          <div class="skill__items">
+              <h4 class="items-title">ROUTER</h4>
+              <img class="items-img" src="./assets/utils/react-router.png" alt="">
+          </div>
+          <div class="skill__items">
+              <h4 class="items-title">REACT FORM</h4>
+              <img class="items-img" src="./assets/utils/hook_form.png" alt="">
+          </div>
+          <div class="skill__items">
+              <h4 class="items-title">VITE</h4>
+              <img class="items-img" src="./assets/utils/vite.png" alt="">
+          </div>
+          <div class="skill__items">
+              <h4 class="items-title">GIT</h4>
+              <img class="items-img" src="./assets/utils/git.png" alt="">
+          </div>
+          <div class="skill__items">
+              <h4 class="items-title">GITHUB</h4>
+              <img class="items-img" src="./assets/utils/github.png" alt="">
+          </div>
+        </div>
+      </div>    
+      <div class="skill-soft" >
+        <h3 class="subtitle">Blandas</h3>
+        <div class="skills__container">
+          <div class="card__soft">
+            <div class="card-soft__head">
+              <i class='bx bx-bulb'></i>
+            </div>
+            <p class="card-soft__body">Liderazgo</p>
+          </div>
+          <div class="card__soft">
+            <div class="card-soft__head">
+              <i class='bx bxl-microsoft-teams'></i>
+            </div>
+            <p class="card-soft__body">Trabajo en equipo</p>
+          </div>
+          <div class="card__soft">
+            <div class="card-soft__head">
+              <i class='bx bx-time'></i>
+            </div>
+            <p class="card-soft__body">Ahorro de recursos y tiempo</p>
+          </div>
+          <div class="card__soft">
+            <div class="card-soft__head">
+              <i class='bx bx-user-voice'></i>
+            </div>
+            <p class="card-soft__body">Escucha y comunicacion asertiva</p>
+          </div>
+          <div class="card__soft">
+            <div class="card-soft__head">
+              <i class='bx bx-bulb'></i>
+            </div>
+            <p class="card-soft__body">Resolucion de problemas</p>
+          </div>
+          <div class="card__soft">
+            <div class="card-soft__head">
+              <i class='bx bx-bulb'></i>
+            </div>
+            <p class="card-soft__body">Adaptabilidad</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="folder" class="folder">
+      <div class="section__header">
+        <h2 class="section__title">Proyectos</h2>
+        <hr class="line">
+      </div>
+      <div class="card__container">
+        <!-- <div class="proyectos"> -->
+        <div class="card__proyecto">
+            <div class="card__proyecto__img-container">
+              <img class="card__proyecto-img" src="./assets/img/proyecto1.png" alt="">
+            </div>
+            <div class="card__header">
+              <h2 class="card-proyecto1__title title__pro">Frases Aleatorias</h2>
+            
+            </div>
+            <div class="card-proyecto__body">
+              <ul class=" card-proyecto__description list">
+                <li class="item">Proyecto hecha en React con Vitejs</li>
+                <li class="item">Se uso un archivo JSON</li>
+                <li class="item">Se uso Componente</li>
+              </ul>
+              <div class="proyecto__footer">
+                <a class="proyecto__footer-title" href="https://random-phrases-cards.netlify.app/" target="_blank">
+                  Visit Website
+                  <i class='bx bx-chevron-right proyecto__footer-icon '></i>
+                </a> 
+              </div>
+            </div>
+        </div>
+        <div class="card__proyecto">
+            <div class="card__proyecto__img-container">
+              <img class="card__proyecto-img" src="./assets/img/proyecto2.png" alt="">
+            </div>
+            <div class="card__header">
+              <h2 class="card-proyecto2__title title__pro">APP del Clima</h2>
+            
+            </div>
+            <div class="card-proyecto__body">
+              <ul class=" card-proyecto__description list">
+                <li class="item">Proyecto hecha en React con Vitejs</li>
+                <li class="item">Se consumio una API <a href="https://openweathermap.org" target="_blank"><em>openweathermap</em></a></li>
+                <!-- <li class="item">Se usaron metodos de geolocatización</li> -->
+                <li class="item">Se uso el objeto navigator</li>
+                <li class="item">Se uso useState y useEffect</li>
+              </ul>
+              <div class="proyecto__footer">
+                <a class="proyecto__footer-title" href="https://app-del-clima-en-tiempo-real.netlify.app/" target="_blank">
+                  Visit Website
+                  <i class='bx bx-chevron-right proyecto__footer-icon '></i>
+                </a> 
+              </div>
+            </div>
+        </div>
+        <div class="card__proyecto">
+            <div class="card__proyecto__img-container">
+              <img class="card__proyecto-img" src="./assets/img/proyecto3.png" alt="">
+            </div>
+            <div class="card__header">
+              <h2 class="card-proyecto3__title title__pro">Rick and Morty</h2>
+            
+            </div>
+            <div class="card-proyecto__body">
+              <ul class=" card-proyecto__description list">
+                <li class="item">Proyecto hecha en React con Vitejs</li>
+                <li class="item">Se consumio una API <a href="https://rickandmortyapi.com/documentation/#get-a-single-location" target="_blank"><em>rickandmortyapi</em></a></li>
+                <!-- <li class="item">Se uso Listas u  Keys</li> -->
+                <li class="item">Se uso input controlados</li>
+                <li class="item">Se uso renderizado condicional</li>
+              </ul>
+              <div class="proyecto__footer">
+                <a class="proyecto__footer-title" href="https://rick-and-morty-gijofam.netlify.app/" target="_blank">
+                  Visit Website
+                  <i class='bx bx-chevron-right proyecto__footer-icon '></i>
+                </a> 
+              </div>
+            </div>
+        </div>
+        <div class="card__proyecto">
+            <div class="card__proyecto__img-container">
+              <img class="card__proyecto-img" src="./assets/img/proyecto4.png" alt="">
+            </div>
+            <div class="card__header">
+              <h2 class="card-proyecto4__title title__pro">CRUD de Usuarios</h2>
+            
+            </div>
+            <div class="card-proyecto__body">
+              <ul class=" card-proyecto__description list">
+                <li class="item">Proyecto hecha en React con Vitejs</li>
+                <li class="item">Se uso metodos HTTP como get, post,delete</li>
+                <li class="item">Se uso react-hook-form</li>
+              </ul>
+              <div class="proyecto__footer">
+                <a class="proyecto__footer-title" href="https://crud-usuarios-gijofam.netlify.app/" target="_blank">
+                  Visit Website
+                  <i class='bx bx-chevron-right proyecto__footer-icon '></i>
+                </a> 
+              </div>
+            </div>
+        </div>
+        <div class="card__proyecto">
+            <div class="card__proyecto__img-container">
+              <img class="card__proyecto-img" src="./assets/img/proyecto5.png" alt="">
+            </div>
+            <div class="card__header">
+              <h2 class="card-proyecto5__title title__pro">Pokedex</h2>
+            
+            </div>
+            <div class="card-proyecto__body">
+              <ul class=" card-proyecto__description list">
+                <li class="item">Proyecto hecha en React con Vitejs</li>
+                <li class="item">Se uso Redux</li>
+                <li class="item">Se uso Router</li>
+              </ul>
+              <div class="proyecto__footer">
+                <a class="proyecto__footer-title" href="https://cards-pokemons.netlify.app/" target="_blank">
+                  Visit Website
+                  <i class='bx bx-chevron-right proyecto__footer-icon '></i>
+                </a> 
+              </div>
+            </div>
+        </div>
+        <div class="card__proyecto">
+            <div class="card__proyecto__img-container">
+              <img class="card__proyecto-img" src="./assets/img/proyecto6.png" alt="">
+            </div>
+            <div class="card__header">
+              <h2 class="card-proyecto6__title title__pro">Ecommerce</h2>
+            
+            </div>
+            <div class="card-proyecto__body">
+              <ul class=" card-proyecto__description list">
+                <li class="item">Proyecto hecha en React con Vitejs</li>
+                <li class="item">Se uso Redux Thunk</li>
+                <li class="item">Se uso rutas protegidas o rutas aninadas</li>
+                <li class="item">Se uso useParams</li>
+              </ul>
+              <div class="proyecto__footer">
+                <a class="proyecto__footer-title" href="https://ecommerce-gijofam.netlify.app/" target="_blank">
+                  Visit Website
+                  <i class='bx bx-chevron-right proyecto__footer-icon '></i>
+                </a> 
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact">
+      <div class="section__header">
+        <h2 class="section__title">Contacto</h2>
+        <hr class="line">
+      </div>
+      <div class="contact__container">
+        <div class="contact__mapa">
+          <!-- <div class="contact__info"> -->
+            <div class="info__header">
+              <div class="header__contact">          
+                <a href="mailto:gipajfm@gmail.com" target="_blank"><i class='bx bx-envelope'></i></a>
+                <h3>workgijofam@gmail.com</h3>
+              </div>
+              <div class="header__contact">
+                <a href="https://api.whatsapp.com/send?phone=51939165560" target="_blank"><i class='bx bxl-whatsapp' ></i></a>
+                <h3>+51 939 165 560</h3>
+              </div>
+              <div class="header__contact">
+                <a>
+                  <i class='bx bx-map-pin'></i>
+                </a>
+                <h3>Ucayali, Peru</h3>               
+              </div>
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31521.8182818901!2d-75.53276557023004!3d-9.043020602262525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91a69ae7d92b6da3%3A0xdbde131392b66a26!2sAguaytia!5e0!3m2!1ses-419!2spe!4v1663266409563!5m2!1ses-419!2spe" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <!-- </div> -->
+        </div>
+        <form action="" id="form-contact" class="form__contact">
+          <div class="form__item">
+            <label for="name">Nombre</label>
+            <input type="text" id="name" placeholder="Nombre">
+          </div>
+          <div class="form__item">
+            <label for="correo">Correo</label>
+            <input type="email" id="correo" placeholder="Correo">
+          </div>
+          <div class="form__item">
+            <label for="description">Mensaje</label>
+            <textarea name="" id="description" cols="30" rows="10" placeholder="Asunto..."></textarea>
+          </div>
+          <button class="form__btn">Enviar</button>
+        </form>
+      </div>
+    </section>
+    
+  </main>
+  <footer class="footer">
+    <h3 class="footer__title">GIJOFAM</h3>
+    <div class="header__container-icon">
+              
+      <a href="https://www.linkedin.com/in/gilmar-fasabi-morales/"><i class='bx bxl-linkedin'></i></a>
+      <a href="https://github.com/gijofam"><i class='bx bxl-github'></i></a>
+      <a href="https://api.whatsapp.com/send?phone=51939165560"><i class='bx bxl-whatsapp' ></i></a>
+      <a href="https://www.instagram.com/gilmarjh/"><i class='bx bxl-instagram-alt'></i></a>
+      <a href="https://www.facebook.com/gpa.fasabimorales"><i class='bx bxl-facebook-circle'></i></a>
+    </div>
+    <p class="footer__description">Gilmar Fasabi &copy;2022</p>
+  </footer>
+  <!-- script propios -->
+  <script src="./assets/script/main.js"></script>  
+</body>
+</html>
