@@ -72,12 +72,11 @@
       height: 450px;
    }
    .perfil__title{
-      font-size: 1.5em;
-      margin-top: .5em;
+      font-size: 1em;
+      /* margin-top: .5em; */
    }
    .perfil__subtitle{
-      font-size: 3em;
-
+      font-size: 2.5em;
    }
    .hero__container-perfil{
       margin-top: 1em;
