@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./assets/style/header.css">
     <link rel="stylesheet" href="./assets/style/footer.css">
     <link rel="stylesheet" href="./assets/style/iconFlotante.css">
+    <link rel="stylesheet" href="./assets/style/darkMode.css">
     <!-- google font -->
     <link href="https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap" rel="stylesheet">
 </head>
@@ -34,12 +35,23 @@
             </div>
         </div>
         <div class="hero__container-grafics">
+
             <div class="grafic-circles absolute">
                 <img class="last-circle absolute"  src="./assets/img/capalast.png" alt="">
                 <img class="medium-circle absolute"  src="./assets/img/capamedia.png" alt="">
                 <img class="center-circle absolute"  src="./assets/img/capacentro.png" alt="">    
             </div>
         </div>
+        <!-- DARK MODE -->
+        <div class="btn-dark">
+              <label for="btn__dark-mode" class="container__dark_mode">
+                <input type="checkbox" id="btn__dark-mode"></input>
+                <div class="btn__on-off"></div>
+                <img src="./assets/utils/sun.svg" class="sun" alt="">
+                <img src="./assets/utils/moon.svg" class="moon" alt="">
+              </label>
+        </div>
+          <!-- end DARK MODE -->
     </section>
     <div class="container__nav">
         <input type="checkbox" id="navegation" >
@@ -92,6 +104,7 @@
             </div>
         </div>
       </div>
+      <hr class="hr__section">
     </section>
     <section id="skills" class="skills">
       <div class="section__header">
@@ -184,6 +197,7 @@
           </div>
         </div>
       </div>
+      <hr class="hr__section">
     </section>
     <section id="folder" class="folder">
       <div class="section__header">
@@ -330,6 +344,7 @@
             </div>
         </div>
       </div>
+      <hr class="hr__section">
     </section>
     <section id="contact" class="contact">
       <div class="section__header">
@@ -374,6 +389,7 @@
           <button class="form__btn">Enviar</button>
         </form>
       </div>
+      <!-- <hr class="hr__section"> -->
     </section>
     
   </main>

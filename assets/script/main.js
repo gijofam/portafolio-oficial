@@ -62,3 +62,10 @@ form.addEventListener('submit', (e)=>{
     alert('tu mensaje en envio con exito')
     e.currentTarget.reset()
 })
+
+const btnDark = document.querySelector('.container__dark_mode');
+const btnDark1 = document.getElementById('btn__dark-mode');
+
+btnDark1.addEventListener('click', () => {
+  document.body.classList.toggle('dark-mode');
+});

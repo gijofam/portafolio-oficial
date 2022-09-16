@@ -31,6 +31,18 @@ body{
     align-items: center;
     /* justify-content: center; */
 }
+body.dark-mode .header{
+  background-image: url('https://cdn.pixabay.com/photo/2017/07/07/22/07/seamless-2482931_960_720.png');
+}
+body.dark-mode main section .section__title{
+ color: white;
+}
+body.dark-mode main .aboutme .aboutme__description {
+  color: white;
+ }
+body.dark-mode main .skills .card-soft__body {
+  color: white;
+ }
 
 main{
   display: flex;
@@ -44,6 +56,13 @@ section{
   width: 100%;
   /* height: 100vh; */
   margin: 3em 0;
+}
+.hr__section{
+  margin-top: 2em;
+  width: 100%;
+  height: 1px;
+  background-color: var(--primary);
+  box-shadow: 0 5px 20px aqua;
 }
 
 /****estilos seccion acercade mi*****/
