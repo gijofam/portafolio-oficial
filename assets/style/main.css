@@ -34,6 +34,9 @@ body{
 body.dark-mode .header{
   background-image: url('https://cdn.pixabay.com/photo/2017/07/07/22/07/seamless-2482931_960_720.png');
 }
+/* body.dark-mode .header .perfil{
+ background-color: white;
+} */
 body.dark-mode main section .section__title{
  color: white;
 }

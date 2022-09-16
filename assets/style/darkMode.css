@@ -29,8 +29,7 @@
     margin-top: 1px;
     margin-left: 2px;
     z-index: 10;
-    transition: all 500ms ease;
-    /* display: none; */
+    transition: transform 500ms ease;
 }
 .sun,
 .moon{
