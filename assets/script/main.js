@@ -47,6 +47,7 @@ form.addEventListener('submit', (e)=>{
   // console.log(dataForm)
   
 // https://github.com/github/fetch
+
   fetch(url, {
     method: "POST",
     headers: { 
@@ -63,6 +64,8 @@ form.addEventListener('submit', (e)=>{
     e.currentTarget.reset()
 })
 
+
+//script para el modo nocturno
 const btnDark = document.querySelector('.container__dark_mode');
 const btnDark1 = document.getElementById('btn__dark-mode');
 
