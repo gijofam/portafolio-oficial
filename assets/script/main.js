@@ -31,9 +31,9 @@ const maquinaEscribir = (str) => {
 
 maquinaEscribir(' Desarrollador Web - Frontend')
 // puestoWork.innerHTML += 'Desarrollador Web - Frontend'
-
+// **********script del formulario***********
 const form = document.getElementById('form-contact')
-const correo = 'gipajfm@gmail.com'
+const correo = 'workgilmarfsabi@gmail.com'
 const url = `https://formsubmit.co/ajax/${correo}`
 form.addEventListener('submit', (e)=>{
   e.preventDefault()
