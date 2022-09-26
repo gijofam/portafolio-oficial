@@ -376,17 +376,18 @@
         <form action="" id="form-contact" class="form__contact">
           <div class="form__item">
             <label for="name">Nombre</label>
-            <input type="text" id="name" placeholder="Nombre">
+            <input type="text" id="name" placeholder="Nombre" required>
           </div>
           <div class="form__item">
             <label for="correo">Correo</label>
-            <input type="email" id="correo" placeholder="Correo">
+            <input type="email" id="correo" placeholder="Correo" required>
           </div>
           <div class="form__item">
             <label for="description">Mensaje</label>
-            <textarea name="" id="description" cols="30" rows="10" placeholder="Asunto..."></textarea>
+            <textarea name="" id="description" cols="30" rows="10" placeholder="Asunto..." required></textarea>
           </div>
           <button class="form__btn">Enviar</button>
+          <p class="warnings" id="warning"></p>
         </form>
       </div>
       <!-- <hr class="hr__section"> -->

@@ -567,5 +567,11 @@ iframe{
  color: var(--text-dark);
 }
 
-
+.warnings{
+ /* width: 200px; */
+ text-align: center;
+ margin: auto;
+ color: #ec4949;
+ font-family:Arial, Helvetica, sans-serif;
+}
 /************* FIN **************/
