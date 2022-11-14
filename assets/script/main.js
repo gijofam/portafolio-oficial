@@ -29,7 +29,7 @@ const maquinaEscribir = (str) => {
  }, 300)
 }
 
-maquinaEscribir(' Desarrollador Web - Frontend')
+maquinaEscribir(' Desarrollador Web - FullStack')
 // puestoWork.innerHTML += 'Desarrollador Web - Frontend'
 // **********script del formulario validacion y envion***********
 const nombre = document.getElementById('name');
@@ -46,7 +46,7 @@ form.addEventListener('submit', (e)=>{
   // console.log(name.value);
   // console.log(email.value);
   // console.log(description.value);
-  parrafo.innerHTML = '';
+  // parrafo.innerHTML = '';
   let warnings = '';
   let letters = /^[A-Za-z]+$/;
   let entrar = false;
